@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/primaryColor"
+    android:orientation="vertical">
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_get"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="GET"-->
+<!--        android:textColor="@color/white"-->
+<!--        tools:ignore="HardcodedText" />-->
+
+    <EditText
+        android:id="@+id/reg_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="3dp"
+        android:autofillHints="Tên Wifi"
+        android:background="@drawable/bg_radius"
+        android:drawableStart="@drawable/ic_user"
+        android:drawablePadding="10dp"
+        android:hint="Tên Wifi"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/reg_pass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="3dp"
+        android:autofillHints="Mật khẩu"
+        android:background="@drawable/bg_radius"
+        android:drawableStart="@drawable/ic_key"
+        android:drawablePadding="10dp"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/btn_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gửi tới thiết bị"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="Bạn không muốn đồng bộ dữ liệu?"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/log_gotoHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="5dp"
+            android:text="Trang chủ"
+            android:textColor="@color/orange"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+</LinearLayout>

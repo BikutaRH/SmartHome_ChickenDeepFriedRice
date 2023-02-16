@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:layout_width="150dp"
+        android:layout_height="150dp">
+        <shape
+            android:shape="oval" >
+            <gradient
+                android:startColor="#0078a5"
+                android:endColor="#CCFFFF"
+                android:gradientRadius="250"
+                android:type="radial"
+                android:centerColor="@color/primaryDarkColor"/>
+        </shape>
+    </item>
+
+    <item android:drawable="@drawable/voice" />
+</layer-list>
